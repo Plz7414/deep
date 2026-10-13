@@ -10,4 +10,5 @@ print(df)
 print("平均分數:", df["成績"].mean())
 print("最高分:", df["成績"].max())
 
+# 進階:找出最高分的是誰
 print(df.loc[df["成績"].idxmax()])
